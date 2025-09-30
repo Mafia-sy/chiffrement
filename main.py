@@ -43,7 +43,7 @@ decrypted_rsa = monRsa.dechiffrement_rsa(encrypted_rsa)
 print("Message déchiffré avec RSA")
 print(decrypted_rsa)
 
-# Test RSA avec ton fichier test.txt
+
 monRsa.chiffrement_fichier("test.txt", "test.txt.rsa", format64=True)
 print("Fichier chiffré : test.txt.rsa")
 
